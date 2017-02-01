@@ -193,6 +193,7 @@ apt-get install -y \
 #TODO: pin package version to ${DOCKER_ENGINE_VERSION}
 curl -sSL https://get.docker.com | /bin/sh
 
+docker pull scornflake/electric-pi
 
 echo "Installing rpi-serial-console script"
 wget -q https://raw.githubusercontent.com/lurch/rpi-serial-console/master/rpi-serial-console -O usr/local/bin/rpi-serial-console
